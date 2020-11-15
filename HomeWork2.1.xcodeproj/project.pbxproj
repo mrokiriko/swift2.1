@@ -15,6 +15,8 @@
 		84F6AB732560EC610009F729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F6AB712560EC610009F729 /* LaunchScreen.storyboard */; };
 		84F6AB7E2560EC610009F729 /* HomeWork2_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6AB7D2560EC610009F729 /* HomeWork2_1Tests.swift */; };
 		84F6AB892560EC610009F729 /* HomeWork2_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6AB882560EC610009F729 /* HomeWork2_1UITests.swift */; };
+		84F6AB972560F9340009F729 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F6AB962560F9340009F729 /* View.xib */; };
+		84F6AB992560FC3D0009F729 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6AB982560FC3D0009F729 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		84F6AB842560EC610009F729 /* HomeWork2.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeWork2.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F6AB882560EC610009F729 /* HomeWork2_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork2_1UITests.swift; sourceTree = "<group>"; };
 		84F6AB8A2560EC610009F729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F6AB962560F9340009F729 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		84F6AB982560FC3D0009F729 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				84F6AB6F2560EC610009F729 /* Assets.xcassets */,
 				84F6AB712560EC610009F729 /* LaunchScreen.storyboard */,
 				84F6AB742560EC610009F729 /* Info.plist */,
+				84F6AB962560F9340009F729 /* View.xib */,
+				84F6AB982560FC3D0009F729 /* NewViewController.swift */,
 			);
 			path = HomeWork2.1;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F6AB972560F9340009F729 /* View.xib in Resources */,
 				84F6AB732560EC610009F729 /* LaunchScreen.storyboard in Resources */,
 				84F6AB702560EC610009F729 /* Assets.xcassets in Resources */,
 				84F6AB6E2560EC5E0009F729 /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 				84F6AB6B2560EC5E0009F729 /* ViewController.swift in Sources */,
 				84F6AB672560EC5E0009F729 /* AppDelegate.swift in Sources */,
 				84F6AB692560EC5E0009F729 /* SceneDelegate.swift in Sources */,
+				84F6AB992560FC3D0009F729 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
